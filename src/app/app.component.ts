@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'social-network';
+  postTexts = [
+    'I am a toxic spider!',
+    'Live colored',
+    'At home',
+    'Profile',
+  ]
+  postImages = [
+    'assets/img/pets/1.jpg',
+    'assets/img/pets/2.jpg',
+    'assets/img/pets/3.jpg',
+    'assets/img/pets/4.jpg'
+  ];
 }
